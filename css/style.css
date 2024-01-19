@@ -198,23 +198,18 @@ ul li a {
 }
 
 #muffinPhoto img {
-    width: 390px;
+    width: 385px;
 }
 
 #eggplantPhoto img {
     width: 350px;
-    height: 350px;
+    height: 325px;
     margin-top: -35px;
-}
-
-#eggplantPhoto {
-    height: 295px;
-    overflow: hidden;
 }
 
 #teriyakiPhoto img {
     width: 400px;
-    height: 300px;
+    height: 295px;
     margin-top: -5px;
 }
 
