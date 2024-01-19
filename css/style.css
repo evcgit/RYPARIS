@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ----- header -----*/
+
+#ryparis-logo {
+    display: inline-block;
+    background-color: orange;
+    margin-left: 30px;
+}
+#header {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#whiteSpace {
+    height: 3px;
+    background-color: white;
+}
+
+
+
+/*----- Title Photo ----*/
+
+#titlePhoto {
+    height: 750px;
+    overflow: hidden;
+    position: relative;
+}
+
+#titlePhoto img {
+    width: 100%;
+    height: 1350px;
+    position: relative;
+    z-index: -1;
+}
+
+#titlePhoto h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 100px;
+    left: 650px;
+}
+
+
+/*---- Categories ----*/
+#categoryContainer {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+#categoryTitle h2 {
+    margin-bottom: 20px;
+}
+#categoryTitle {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 50px 0 50px 0;
+}
+
+#categoryPhotoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categoryPhotos {
+    overflow: hidden;
+    width: 375px;
+    height: 300px;
+    position: relative;
+    z-index: -1;
+}
+
+#breakfast-ideas img{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    right: 50px;
+}
+
+#vegetarian-ideas img {
+    height: 310px;
+    width: 310px;
+}
+
+#dinnerPlate img {
+    height: 310px;
+    width: 413px;
+}
+
+.categoryLabels p {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+
+
+
+
+#recipesContainer {
+    background-color: white;
+    height: 100px;
+}
