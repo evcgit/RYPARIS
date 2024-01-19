@@ -4,6 +4,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+
+
+
 /* ----- header -----*/
 
 #ryparis-logo {
@@ -48,6 +52,8 @@ ul li a {
 
 
 
+
+
 /*----- Title Photo ----*/
 
 #titlePhoto {
@@ -72,6 +78,10 @@ ul li a {
     bottom: 100px;
     left: 32%;
 }
+
+
+
+
 
 
 /*---- Categories ----*/
@@ -127,6 +137,9 @@ ul li a {
     font-size: 1.1rem;
     margin-top: 20px;
 }
+
+
+
 
 
 
@@ -203,4 +216,67 @@ ul li a {
     width: 400px;
     height: 300px;
     margin-top: -5px;
+}
+
+
+
+/*----- Where to Eat----- */
+
+#whereContainer {
+    position: relative;
+    top: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#whereTitle {
+    width: 85%;
+    margin: 65px 0 10px 0;
+    font-size: 1.5rem;
+}
+
+#whereTitle h2, p {
+    margin-bottom: 30px;
+}
+
+#wherePhotosContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.wherePhotos {
+    width: 350px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#burgerPhoto img {
+    height: 300px;
+    width: 385px;
+}
+
+#pizzaPhoto img {
+    height: 300px;
+    width: 450px;
+}
+
+#lobsterPhoto img {
+    height: 300px;
+    width: 450px;
+}
+
+.photoBorder {
+    height: 340px;
+    width: 350px;
+    border: solid 7px rgb(218,223,234);
+    overflow: hidden;
+}
+
+.wherePhotos p {
+    font-weight: bold;
+    margin-top: 15px;
 }
