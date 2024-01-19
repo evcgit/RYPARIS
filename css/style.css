@@ -220,6 +220,8 @@ ul li a {
 
 
 
+
+
 /*----- Where to Eat----- */
 
 #whereContainer {
@@ -279,4 +281,40 @@ ul li a {
 .wherePhotos p {
     font-weight: bold;
     margin-top: 15px;
+}
+
+
+
+/*----- Footer ---- */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 40px 0 40px;
+    position: relative;
+    top: 75vh;
+}
+
+
+h5 {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 1.2rem;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+footer ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
 }
