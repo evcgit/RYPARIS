@@ -28,18 +28,18 @@ nav {
     align-items: center;
 }
 
-ul {
+nav > ul {
     display: flex;
     flex-direction: row;
     margin-right: 15px;
 }
 
-ul li {
+nav>ul>li {
     list-style: none;
     margin-right: 30px;
 }
 
-ul li a {
+nav>ul>li>a {
     text-decoration: none;
     color: black;
     font-size: 25px;
@@ -297,18 +297,18 @@ h5 {
     font-size: 1.2rem;
 }
 
-footer ul {
+footer>ul {
     display: flex;
     flex-direction: row;
     margin-right: 15px;
 }
 
-footer ul li {
+footer>ul>li {
     list-style: none;
     margin-right: 20px;
 }
 
-footer ul li a {
+footer>ul>li>a {
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -334,7 +334,7 @@ footer ul li a {
     padding: 30px;
 }
 
-#infoContainer ul {
+#infoContainer>ul {
     flex-direction: column;
     flex-wrap: wrap;
     display: flex;
@@ -342,7 +342,7 @@ footer ul li a {
     margin-top: 15px;
   }
 
-#infoContainer ul li {
+#infoContainer>ul>li {
     flex: 1 0 25%;
 }
 
@@ -351,6 +351,13 @@ footer ul li a {
     flex-direction: column;
     align-items: center;
 }
+
+
+
+
+
+/*----- Review Section ---- */
+
 #foodTitle {
     font-size: 1.5rem;
     display: flex;
@@ -406,4 +413,53 @@ button:hover {
     padding: 30px 100px 10px 100px;
     font-weight: bold;
     color: rgb(87,86,86);
+}
+
+/* ------ Full recipe ----- */
+#fullRecipeContainer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 15vh;
+}
+
+#ingredientsContainer {
+    font-size: 1.2rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10%;
+    
+}
+
+#ingredientsContainer > ul > li{
+    list-style: disc inside;
+    margin-top: 5px;
+}
+
+#spicesContainer {
+    font-size: 1.1rem;
+    margin-top: 6vh;
+}
+#spicesContainer > ul > li{
+    list-style: disc inside;
+    margin-top: 5px;
+}
+
+#directionsContainer {
+    list-style: georgian inside;
+    margin-top: 5px;
+    width: 40%;
+    position: absolute;
+    right: 10%;
+    font-size: 1.1rem;
+}
+
+#directionsContainer > ol > li {
+    margin-top: 10px;
+}
+
+#listSplit {
+    font-weight: bolder;
 }
