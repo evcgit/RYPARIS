@@ -463,3 +463,12 @@ button:hover {
 #listSplit {
     font-weight: bolder;
 }
+
+.tiktok-embed {
+    position: relative;
+    top: 25vh;
+}
+
+#recipeFooter {
+    top: 30vh;
+}
