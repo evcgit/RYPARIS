@@ -1,0 +1,90 @@
+commit 5b900471dec28d998e501aea343d977d7df3d27a
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Sat Jan 20 14:32:41 2024 -0700
+
+    linked html pages
+
+commit 59045e67c7e913f354b1572d808d314970685222
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Sat Jan 20 14:26:24 2024 -0700
+
+    added tiktok video
+
+commit e33b3a72a7b5fe48e14e2bf7bd1565e02bf32c79
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Sat Jan 20 14:00:50 2024 -0700
+
+    instructions section complete
+
+commit 55828842f582f268b9cab549b11c064f1eb0c2f4
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Sat Jan 20 13:07:49 2024 -0700
+
+    review section complete
+
+commit 93124440df6e8061c3f38cb33b715417f193cf7d
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Fri Jan 19 19:07:09 2024 -0700
+
+    added review section to recipe page
+
+commit c2ac1eff4cc37d3e53c9874a1d1449e916e20a94
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Fri Jan 19 18:52:25 2024 -0700
+
+    added footer to recipe page
+
+commit a6e3aa7c9eecc3c7bc7e8f13cf033fa79f1e1c46
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Fri Jan 19 18:49:19 2024 -0700
+
+    title of recipe page complete
+
+commit b73f64ee631cbfe9c8d75a3ede5264397dffda4d
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Fri Jan 19 15:13:46 2024 -0700
+
+    healthy photo adjustments
+
+commit 0d6af754cd6c9e910605c6c05e37d018122f8333
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Fri Jan 19 15:08:15 2024 -0700
+
+    home footer complete
+
+commit 54c8ffcb29df95b203fa5e1e6f5733f4d8474f03
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Fri Jan 19 14:35:24 2024 -0700
+
+    where to eat section complete
+
+commit ebe998c7a09281f14d6bdcdc47f86087268f6810
+Merge: a2f83ce 498540c
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Fri Jan 19 13:40:43 2024 -0700
+
+    healthy recipes section complete
+
+commit a2f83ce96b9a3d57c283c0bc0d989350aeb64cab
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Fri Jan 19 13:38:58 2024 -0700
+
+    healthy recipes section complete
+
+commit 498540c4b5ccc00a2be9bab5213da1362d289f10
+Author: Evan.Cortez <EVAN.CORTEZ3145@STU.MTEC.EDU>
+Date:   Fri Jan 19 07:50:49 2024 -0700
+
+    positioning adjustments
+
+commit fee85359c8a7879b8a22349bba6689cdec5cd2af
+Author: evcgit <evanvcortez@gmail.com>
+Date:   Thu Jan 18 18:23:32 2024 -0700
+
+    first commit. first half of homepage done
+
+commit c584417b28879b41c6403620923fa37a2396a6c9
+Author: evcgit <148818330+evcgit@users.noreply.github.com>
+Date:   Thu Jan 18 16:29:06 2024 -0700
+
+    Initial commit
