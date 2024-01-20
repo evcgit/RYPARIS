@@ -313,3 +313,34 @@ footer ul li a {
     color: black;
     font-size: 15px;
 }
+
+
+
+
+/*----- Recipe Page -----*/
+
+
+/*----- Gray info Bar-----*/
+
+#quickInfoContainer {
+    background-color: rgb(218,223,234);
+    font-size: 1.6rem;
+}
+
+#infoContainer {
+    width: 50%;
+    position: relative;
+    left: 10%;
+    padding: 30px;
+}
+
+#infoContainer ul {
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    height: 10vh;
+    margin-top: 15px;
+  }
+  #infoContainer ul li {
+    flex: 1 0 25%;
+  }
